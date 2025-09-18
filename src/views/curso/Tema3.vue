@@ -234,7 +234,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://youtu.be/Mta6TGS3cWU?si=Xq0NJdkMk4OTRPIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Mta6TGS3cWU?si=Uubu3rA_lTa2RK5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     h2(data-aos="fade-left") Aplicación práctica 
     p.mb-5 Para identificar vulnerabilidades en dispositivos IoT, se sigue un proceso de análisis sistemático:
