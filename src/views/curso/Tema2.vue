@@ -557,14 +557,14 @@
           .col-lg.text-white
             p.mb-0 Resultado esperado: una red autoformada y bidireccional, con capacidad de auto reparación si falla algún nodo intermedio.
     
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-2.mb-0
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Comparación entre MQTT y CoAP
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Comparación entre MQTT y CoAP, donde se aborda el análisis técnico de dos protocolos clave en el desarrollo de aplicaciones IoT: MQTT y CoAP. 
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

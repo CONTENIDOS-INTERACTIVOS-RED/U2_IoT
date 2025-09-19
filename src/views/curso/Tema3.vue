@@ -442,7 +442,7 @@
             h2.mb-4(data-aos="flip-up") Riesgos de exposición de datos en IoT
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Riesgos de exposición de datos en IoT, donde se aborda la problemática de seguridad en los ecosistemas de Internet de las Cosas (IoT), enfocándose en los riesgos relacionados con la exposición de datos personales y operacionales.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -634,14 +634,14 @@
           .col-lg.text-white
             p.mb-0 El resultado esperado es una matriz de riesgo que identifica dispositivos y sistemas cuyo compromiso tendría el mayor impacto operacional, permitiendo priorización de inversiones en seguridad basada en análisis cuantitativo de riesgo.
     
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-2.mb-0
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Técnicas de cifrado para dispositivos IoT
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Técnicas de cifrado para dispositivos IoT, donde se aborda el diseño e implementación de soluciones criptográficas adaptadas a las limitaciones de hardware, energía y conectividad de los dispositivos IoT.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
